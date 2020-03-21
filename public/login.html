@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Login-Portfolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+  <link href="stylesheets/style.css" rel="stylesheet">
+</head>
+
+<body>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<div class="container">
+			<a href="./home.html" class="navbar-brand">
+				<h3 class="your-name">Luis Gómez</h3>
+			</a>
+			<button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbar"
+				aria-controls="navbar" aria-expanded="false" aria-label="Menu de Navegacion">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbar">
+				<ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a href="./signup.html" class="nav-link"
+              >Signup<span class="sr-only">(Actual)</span></a
+            >
+          </li>
+					<li class="nav-item">
+						<a href="./home.html" class="nav-link">About<span class="sr-only">(Actual)</span></a>
+					</li>
+					<li class="nav-item">
+						<a href="./portfolio.html" class="nav-link">Portfolio</a>
+					</li>
+					<li class="nav-item">
+						<a href="./contact.html" class="nav-link">Contact</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+  <!-- <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-md-offset-3">
+        <h2>Login</h2>
+        <form class="login">
+          <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="email-input" placeholder="Email">
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1">Password</label>
+            <input type="password" class="form-control" id="password-input" placeholder="Password">
+          </div>
+          <button type="submit" class="btn btn-default">Login</button>
+        </form>
+        <br />
+        <p>Or sign up <a href="/">here</a></p>
+      </div>
+    </div>
+  </div> -->
+  <div class="main container">
+    <div class="central-container">
+        <div class="row no-gutters">
+            <div class="about-me col-12">
+                <h1 class="main-title">Log In</h1>
+            </div>
+        </div>
+        <hr />
+        <form class="login">
+            <div class="form-group forms-row row" id="nameFormGropRow">
+              <div class="col-12 col-md-5 mb-3">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" id="email-input" placeholder="Email">
+              </div>
+            </div>
+            <div class="form-group forms-row row" id="nameFormGropRow">
+                <div class="col-12 col-md-5 mb-3">
+                  <label for="exampleInputPassword1">Password</label>
+                  <input type="password" class="form-control" id="password-input" placeholder="Password">
+                </div>
+            </div>
+            <div class="form-group forms-row row" id="nameFormGropRow">
+              <div class="col-12 col-md-5 mb-3">
+            <button type="submit" class="btn btn-primary">Log In</button>
+            <br />
+            <p>Or Sign Up <a href="/signup">here</a></p>
+              </div>
+            </div>
+        </form>
+        <div class="row no-gutters">
+            <div class="col text-center" id="col-info">
+                <label class="text-info">Luis Gómez</label><br>
+                <label class="text-info">lmgom875@gmail.com</label class="text-info"><br>
+                <a href="https://github.com/lmgom875" target="_blank">
+                    <img src="./images/icons8-github-128.png" class="social-image" alt="Github Icon">
+                </a>
+                <a href="https://instagram.com/lmgom875" target="_blank">
+                    <img src="./images/icons8-instagram-128.png" class="social-image" alt="Github Icon">
+                </a>
+                <a href="https://twitter.com/LuisGom52758706" target="_blank">
+                    <img src="./images/icons8-twitter-128.png" class="social-image" alt="Github Icon">
+                </a>
+                <a href="https://linkedin.com/in/luis-gomez-788a96196" target="_blank">
+                    <img src="./images/icons8-linkedin-128.png" class="social-image" alt="Github Icon">
+                </a>
+                <a href="https://facebook.com/lmgom875" target="_blank">
+                    <img src="./images/icons8-facebook-128.png" class="social-image" alt="Github Icon">
+                </a><br>
+                <a href="https://icons8.com/" target="_blank" id="icon8prom">www.icons8.com</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="botton-line"></div>
+<footer class="footer mt-auto py-3">
+    <div class="container">
+        <div class="row">
+            <div class="col text-center">
+                <span>Copyright&copy;</span>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+		integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+		integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+		crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+		integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+		crossorigin="anonymous"></script>
+  <script type="text/javascript" src="js/login.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,126 @@
+form.signup,
+form.login {
+  margin-top: 50px;
+}
+body {
+	background-image: url('/images/main-background.png');
+}
+.navbar {
+	padding-top: 10px;
+	padding-bottom: 0;
+	border-bottom-style: solid;
+	border-bottom-color: #cccccc;
+	border-bottom-width: 1px;
+}
+.navbar-brand {
+	padding: 0;
+}
+.navi-bar {
+	height: 53px;
+}
+.central-container {
+	background-color: #f8f8ff;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #dddddd;
+	margin-top: 30px;
+}
+.your-name {
+	background-color: #4aaaa5;
+	color: #ffffff;
+	text-align: center;
+	padding: 10px;
+	margin: 0;
+}
+#my-photo{
+	margin-right: 10px;
+}
+ #personalInfo{
+	 padding: 10px;
+} 
+#resumeImage{
+	margin-bottom: 20px;
+	width: 90%;
+}
+.card{
+	padding: 0;
+	margin: 20px;
+	background-color: unset;
+}
+.card-body{
+	padding: 0;
+}
+.front{
+	background-color: #f8f9fa;
+}
+.back{
+	background-color: #f8f9fa;
+}
+.card-title{
+	margin-top: 0.25rem;
+}
+p{
+	padding: 0 5px;
+}
+.content-message{
+	font-size: 12px;
+}
+img{
+	vertical-align: unset;
+}
+.mix-photo{
+	width: 100%;
+	height: 194px;
+}
+.github-image{
+	height: 80px;
+	width: 80px;
+}
+hr {
+	border: 1px solid #dddddd;
+	margin-top: 0;
+	margin: 10px;
+}
+.about-me {
+	color: #4aaaa5;
+}
+.main-title{
+	padding: 0 10px;
+}
+#info {
+	padding: 20px;
+}
+.forms-row{
+	margin: 20px;
+}
+.social-image{
+	width: 50px;
+	height: 50px;
+}
+#col-info{
+	margin-bottom: 15px;
+}
+.text-info{
+	font-size: 20px;
+}
+#icon8prom{
+	font-size: 12px;
+}
+.btn{
+  margin: 5px;
+}
+.botton-line {
+  position: fixed;
+  bottom: 56px;
+  width: 100%;
+	margin-top: 1rem;
+	height: 10px;
+	background-color: #4aaaa5;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+	background-color: #666666;
+  color: #ffffff;
+}
